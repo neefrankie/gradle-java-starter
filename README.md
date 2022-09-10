@@ -83,7 +83,7 @@ The archive is located in `app/build/distributions/app.tar`
 
 NOTE this is not a fat jar. It only zips all jar files under a single directory.
 
-The files bundled this way can be executed directly with the `java -jar` command since you the main class name is missing. You can either provide it in the command arguments, or set it in manifest file.
+The files bundled this way cannot be executed directly with the `java -jar` command since the main class name is missing. You can either provide it in the command arguments, or set it in manifest file.
 
 ## Customize the JAR
 
