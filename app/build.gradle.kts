@@ -23,6 +23,9 @@ repositories {
 }
 
 dependencies {
+    // https://mvnrepository.com/artifact/io.netty/netty-all
+    implementation("io.netty:netty-all:4.1.82.Final")
+
     // Use JUnit test framework.
     testImplementation("junit:junit:4.13.2")
 
